@@ -1,0 +1,106 @@
+body{
+	background-color: #121212;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-transform: uppercase;
+}
+
+p{
+	line-height: 1.8rem;
+}
+
+a{
+	color: #D1D1D1;
+}
+a:hover{
+	color: #B5B5B5;
+}
+
+#headline{
+	font-size: 7.0rem;
+}
+@media screen and (min-width: 430px) {
+	#headline { 
+		font-size: 8.0rem;
+	}
+}
+
+.liveTag{
+	font-weight: 300;
+	font-style: italic;
+	font-size: 1.2rem;
+	vertical-align: .5rem;
+	visibility: hidden;
+}
+.goLive{
+	font-weight: 300;
+	font-style: italic;
+	font-size: 1.8rem;
+	vertical-align: .5rem;
+	text-transform: uppercase;
+	text-align: center;
+	color: #D1D1D1;
+	text-decoration: underline;
+	cursor:pointer;
+	visibility: hidden;
+}
+.description{
+	display: none;
+}
+.introDescr{
+	font-weight: 100;
+	font-size: 3rem;
+	line-height: 3.5rem;
+	text-align: left;
+}
+@media screen and (min-width: 550px) {
+	.introDescr { 
+		text-align: right;
+	}
+}
+.sensorDescr{
+	font-size: 1.3rem;
+	line-height: 1.7rem;
+	margin-right: 20%;
+}
+.rightAlign{
+	text-align: right;
+}
+
+.grid-item { 
+	width: 48%; 
+	padding: 1%;
+}
+
+.grid-item { 
+	width: 100%; 
+}
+
+.sensorHeadline h6{
+	margin: 0px;
+}
+
+@media screen and (min-width: 500px) {
+	.grid-item { 
+		width: 48%; 
+		padding: 1%;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.grid-item { 
+		width: 31%; 
+		padding: 1%;
+	}
+}
+
+.videoInsert {
+    width: 100%    !important;
+	height: auto   !important;
+}
+
+video::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
